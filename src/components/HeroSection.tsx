@@ -39,7 +39,7 @@ const HeroSection = () => {
           </div>
 
           {/* Heading */}
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight text-foreground mb-6">
+          <h1 className="text-[2.25rem] sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-tight text-foreground mb-6">
             Better Education Through{" "}
             <span className="text-primary">"Health"</span>
           </h1>

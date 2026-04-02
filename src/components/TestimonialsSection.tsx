@@ -25,7 +25,7 @@ const TestimonialsSection = () => {
            </button>
 
            {/* Cards Row */}
-           <div className="flex flex-col lg:flex-row items-center gap-12 lg:gap-16 relative z-10 px-6 lg:px-6">
+           <div className="flex flex-col lg:flex-row items-center gap-8 lg:gap-16 relative z-10 px-0 lg:px-6">
              
              {/* Testimonial 1 */}
              <div className="flex-1 flex flex-col sm:flex-row items-center sm:items-start gap-6 lg:gap-8 min-w-0">

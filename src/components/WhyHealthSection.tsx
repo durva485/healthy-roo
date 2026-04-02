@@ -9,7 +9,7 @@ const WhyHealthSection = () => {
         <div className="flex flex-col lg:flex-row gap-16 lg:gap-24">
 
           {/* Left Collage Section */}
-          <div className="flex-1 relative order-2 lg:order-1 select-none">
+          <div className="flex-1 relative order-2 lg:order-1 select-none w-full overflow-hidden">
             {/* Collage Container */}
             <div className="relative h-[450px] md:h-[600px] w-full max-w-[600px] mx-auto lg:mx-0 mt-8">
 
@@ -125,8 +125,8 @@ const WhyHealthSection = () => {
 
               {/* Left Column: Fixed Header Text */}
               <div className="w-full max-w-[280px]">
-                <h3 className="text-3xl font-black text-[#111] mb-5 leading-tight">
-                  The consequences <br className="hidden xl:block" /> are
+                <h3 className="text-2xl md:text-3xl font-black text-[#111] mb-5 leading-tight">
+                  The consequences are
                 </h3>
                 <p className="text-muted-foreground text-sm leading-relaxed">
                   Modern lifestyle challenges have profound impacts on physical and mental development.

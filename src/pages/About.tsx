@@ -62,7 +62,7 @@ const HexTeamMember = ({
 
 const AboutPage = () => {
   return (
-    <div className="min-h-screen bg-white font-sans overflow-x-hidden">
+    <div className="min-h-screen bg-white font-sans overflow-x-hidden w-full max-w-full">
       <Navbar />
 
       {/* Section 1: Who We Are / Hero - Precision Layout Match */}
@@ -81,7 +81,7 @@ const AboutPage = () => {
         <div className="absolute top-0 left-0 w-full h-[300px] md:h-[500px] lg:h-[600px] z-20 pointer-events-none flex items-end">
            <div className="container mx-auto px-4 lg:px-12 flex justify-center md:justify-end">
              {/* High-Impact Red Circle positioned identically to screenshot - Proportions Scaled Down for Visibility */}
-             <div className="pointer-events-auto relative w-[230px] h-[230px] sm:w-[280px] sm:h-[280px] md:w-[380px] md:h-[380px] lg:w-[460px] lg:h-[460px] bg-[#EE1D26] rounded-full flex flex-col items-center justify-center text-center text-white p-4 md:p-8 lg:p-10 translate-y-[30%] lg:translate-y-[25%] shadow-xl shadow-red-500/10">
+             <div className="pointer-events-auto relative w-[210px] h-[210px] sm:w-[280px] sm:h-[280px] md:w-[380px] md:h-[380px] lg:w-[460px] lg:h-[460px] bg-[#EE1D26] rounded-full flex flex-col items-center justify-center text-center text-white p-4 md:p-8 lg:p-10 translate-y-[25%] shadow-xl shadow-red-500/10">
              
              {/* Sun Doodle Graphic */}
              <div className="absolute top-[8%] left-[2%] md:top-[10%] md:left-[3%] w-6 md:w-12 lg:w-16">
@@ -98,21 +98,21 @@ const AboutPage = () => {
              </div>
 
              {/* Inner Typography Layout */}
-             <h1 className="text-2xl md:text-4xl lg:text-[48px] font-black uppercase tracking-tight mb-2 md:mb-4 drop-shadow-sm leading-none pt-2 lg:pt-3 whitespace-nowrap">
-               WHO WE ARE
-             </h1>
-             
-             <h2 className="text-[7px] sm:text-[8px] md:text-[11px] lg:text-[13px] font-black uppercase tracking-[0.1em] lg:tracking-[0.15em] mb-3 md:mb-5 leading-[1.8] lg:leading-[2] opacity-95">
-               THE SCHOOL HEALTH PARTNER FOR<br />A<br />HEALTHIER FUTURE
-             </h2>
-             
-             <div className="w-8 md:w-16 lg:w-24 h-[1px] bg-white/40 mb-3 md:mb-5" />
-             
-             <p className="text-[7px] sm:text-[8px] md:text-[12px] lg:text-[13px] leading-relaxed lg:leading-[1.6] font-semibold opacity-100 max-w-[200px] md:max-w-none">
-               HealthyRoo is Australia's largest healthcare organization for<br className="hidden md:block" />
-               primary and secondary schools with the mission to nurture<br className="hidden md:block" />
-               the world's largest network of health promoting schools.
-             </p>
+              <h1 className="text-3xl md:text-4xl lg:text-[48px] font-black uppercase tracking-tight mb-2 md:mb-4 drop-shadow-sm leading-none pt-2 lg:pt-3 whitespace-nowrap">
+                WHO WE ARE
+              </h1>
+              
+              <h2 className="text-[9px] sm:text-[10px] md:text-[11px] lg:text-[13px] font-black uppercase tracking-[0.1em] lg:tracking-[0.15em] mb-3 md:mb-5 leading-[1.8] lg:leading-[2] opacity-95">
+                THE SCHOOL HEALTH PARTNER FOR<br />A<br />HEALTHIER FUTURE
+              </h2>
+              
+              <div className="w-8 md:w-16 lg:w-24 h-[1px] bg-white/40 mb-3 md:mb-5" />
+              
+              <p className="text-[10px] sm:text-[11px] md:text-[12px] lg:text-[13px] leading-relaxed lg:leading-[1.6] font-semibold opacity-100 max-w-[200px] md:max-w-none">
+                HealthyRoo is Australia's largest healthcare organization for <br className="hidden md:block" />
+                primary and secondary schools with the mission to nurture <br className="hidden md:block" />
+                the world's largest network of health promoting schools.
+              </p>
            </div>
           </div>
         </div>
@@ -197,16 +197,16 @@ const AboutPage = () => {
                   various health initiatives for public and private schools across Australia.
                </p>
                {/* SDG Logo Placeholder Block */}
-               <div className="bg-white rounded-lg p-5 inline-flex items-center gap-6 shadow-md">
-                 <img src={logo} alt="HealthyRoo" className="h-10 opacity-80" />
-                 <div className="w-px h-10 bg-gray-200" />
-                 <span className="text-[#1A73E8] font-black text-xl tracking-tight">
-                   SUSTAINABLE<br className="sm:hidden" /> DEVELOPMENT <span className="text-[#34A853]">GOALS</span>
-                 </span>
-               </div>
+                <div className="bg-white rounded-lg p-3 sm:p-5 flex sm:inline-flex items-center gap-3 sm:gap-6 shadow-md w-full sm:w-auto max-w-[380px] sm:max-w-none">
+                  <img src={logo} alt="HealthyRoo" className="h-6 sm:h-10 opacity-80" />
+                  <div className="w-px h-6 sm:h-10 bg-gray-200" />
+                  <span className="text-[#1A73E8] font-black text-xs sm:text-lg md:text-xl tracking-tight leading-tight uppercase">
+                    SUSTAINABLE DEVELOPMENT <br className="sm:hidden" /> <span className="text-[#34A853]">GOALS</span>
+                  </span>
+                </div>
             </div>
 
-            <div className="grid grid-cols-3 gap-3 md:gap-4 lg:gap-6">
+            <div className="grid grid-cols-2 sm:grid-cols-3 gap-3 md:gap-4 lg:gap-6">
                {/* SDG Icons (Official Visual Replica - Local Assets) */}
                {[
                  { id: 3, src: sdg3 },

@@ -45,7 +45,7 @@ const ImpactPage = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-white overflow-x-hidden w-full max-w-full">
       <Navbar />
 
       {/* Structured Impact Hero Section */}
@@ -67,7 +67,7 @@ const ImpactPage = () => {
               <span className="text-white font-bold text-xs sm:text-sm tracking-[0.2em] lg:tracking-[0.2em] mb-2 block uppercase drop-shadow-md opacity-90">
                 Our Evolution of Impact
               </span>
-              <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black text-white uppercase tracking-tighter leading-[0.95] drop-shadow-xl">
+              <h1 className="text-2xl min-[360px]:text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black text-white uppercase tracking-tighter leading-[0.95] drop-shadow-xl">
                 Transforming
                 <br />
                 Education
@@ -95,36 +95,36 @@ const ImpactPage = () => {
             <div className="max-w-5xl grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8 mb-12">
               
               {/* Card 1: Lives Impacted */}
-              <div className="bg-[#F9F9F9] border-l-[6px] border-[#EE1D26] p-8 md:p-10 flex flex-row items-center justify-between shadow-sm relative overflow-hidden group hover:bg-white transition-all">
+              <div className="bg-[#F9F9F9] border-l-[6px] border-[#EE1D26] p-5 sm:p-8 md:p-10 flex flex-row items-center justify-between shadow-sm relative overflow-hidden group hover:bg-white transition-all">
                 <div className="flex flex-col">
-                  <span className="text-[#111] text-4xl md:text-5xl font-black tracking-tighter leading-none mb-2">500,000+</span>
+                  <span className="text-[#111] text-3xl sm:text-4xl md:text-5xl font-black tracking-tighter leading-none mb-2">500,000+</span>
                   <span className="text-[#EE1D26] text-[10px] md:text-xs font-black uppercase tracking-[0.2em]">Lives Impacted Regionally</span>
                 </div>
                 <Users className="w-8 h-8 md:w-12 md:h-12 text-black/10 group-hover:text-black/20 transition-colors" />
               </div>
               
               {/* Card 2: Trained Teachers */}
-              <div className="bg-[#F9F9F9] border-l-[6px] border-[#EE1D26] p-8 md:p-10 flex flex-row items-center justify-between shadow-sm relative overflow-hidden group hover:bg-white transition-all">
+              <div className="bg-[#F9F9F9] border-l-[6px] border-[#EE1D26] p-5 sm:p-8 md:p-10 flex flex-row items-center justify-between shadow-sm relative overflow-hidden group hover:bg-white transition-all">
                 <div className="flex flex-col">
-                  <span className="text-[#111] text-4xl md:text-5xl font-black tracking-tighter leading-none mb-2">364+</span>
+                  <span className="text-[#111] text-3xl sm:text-4xl md:text-5xl font-black tracking-tighter leading-none mb-2">364+</span>
                   <span className="text-[#EE1D26] text-[10px] md:text-xs font-black uppercase tracking-[0.2em]">Trained Teachers</span>
                 </div>
                 <GraduationCap className="w-8 h-8 md:w-12 md:h-12 text-black/10 group-hover:text-black/20 transition-colors" />
               </div>
               
               {/* Card 3: Partner Schools */}
-              <div className="bg-[#F9F9F9] border-l-[6px] border-[#EE1D26] p-8 md:p-10 flex flex-row items-center justify-between shadow-sm relative overflow-hidden group hover:bg-white transition-all">
+              <div className="bg-[#F9F9F9] border-l-[6px] border-[#EE1D26] p-5 sm:p-8 md:p-10 flex flex-row items-center justify-between shadow-sm relative overflow-hidden group hover:bg-white transition-all">
                 <div className="flex flex-col">
-                  <span className="text-[#111] text-4xl md:text-5xl font-black tracking-tighter leading-none mb-2">125+</span>
+                  <span className="text-[#111] text-3xl sm:text-4xl md:text-5xl font-black tracking-tighter leading-none mb-2">125+</span>
                   <span className="text-[#EE1D26] text-[10px] md:text-xs font-black uppercase tracking-[0.2em]">Partner Schools</span>
                 </div>
                 <School className="w-8 h-8 md:w-12 md:h-12 text-black/10 group-hover:text-black/20 transition-colors" />
               </div>
               
               {/* Card 4: Cities Reached */}
-              <div className="bg-[#F9F9F9] border-l-[6px] border-[#EE1D26] p-8 md:p-10 flex flex-row items-center justify-between shadow-sm relative overflow-hidden group hover:bg-white transition-all">
+              <div className="bg-[#F9F9F9] border-l-[6px] border-[#EE1D26] p-5 sm:p-8 md:p-10 flex flex-row items-center justify-between shadow-sm relative overflow-hidden group hover:bg-white transition-all">
                 <div className="flex flex-col">
-                  <span className="text-[#111] text-4xl md:text-5xl font-black tracking-tighter leading-none mb-2">42+</span>
+                  <span className="text-[#111] text-3xl sm:text-4xl md:text-5xl font-black tracking-tighter leading-none mb-2">42+</span>
                   <span className="text-[#EE1D26] text-[10px] md:text-xs font-black uppercase tracking-[0.2em]">Cities Reached</span>
                 </div>
                 <MapPin className="w-8 h-8 md:w-12 md:h-12 text-black/10 group-hover:text-black/20 transition-colors" />
